@@ -26,7 +26,7 @@ actionLink: /views/other/about
 
 ## 快速开始
 
-**npx**
+<!-- **npx**
 
 ```bash
 # 初始化，并选择 2.x
@@ -47,4 +47,4 @@ theme-cli init
 # 初始化，并选择 2.x
 yarn global add @vuepress-reco/theme-cli@1.0.7
 theme-cli init
-```
+``` -->
