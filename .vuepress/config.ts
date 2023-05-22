@@ -11,10 +11,11 @@ export default defineUserConfig({
     author: "netaxe",
     authorAvatar: "/head.png",
     autoSetSeries:true,
-    docsRepo: "https://github.com/vuepress-reco/vuepress-theme-reco-next",
-    docsBranch: "main",
-    docsDir: "example",
+    // docsRepo: "https://github.com/vuepress-reco/vuepress-theme-reco-next",
+    // docsBranch: "main",
+    // docsDir: "docs",
     lastUpdatedText: "",
+    editLink:false,
     // series 为原 sidebar
     series: {
       "/docs/theme-reco/": [
@@ -30,7 +31,7 @@ export default defineUserConfig({
       "/docs/manual/": [
         {
           text: "快速入门",
-          children: ["readme","start"],
+          children: ["introduce","start"],
           
         },
         {
